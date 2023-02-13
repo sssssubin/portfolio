@@ -12,14 +12,14 @@
     <link rel="icon" type="image/png" href="imgs/favicon.png" />
     <script src="https://kit.fontawesome.com/0a137b08a2.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./tab-content.css" />
 
     <script src="./tab-content.js" defer></script>
     <script src="./jquery.min_1.12.4.js" defer></script>
 </head>
 
 <body>
-    <!-- Work -->
+    <!-- #1 -->
     <section id="work" class="section">
         <div class="section__container">
             <h1>My work</h1>
@@ -80,6 +80,50 @@
                     </div>
                 </a>
             </div>
+        </div>
+    </section>
+
+    <!-- #2, CodePen Home Simple tabs without JS -->
+    <section>
+        <div class="tabs2">
+            <div class="tab2">
+                <input type="radio" id="tab1" name="tab-group" checked>
+                <label for="tab1">Tab 1</label>
+                <div class="tab-content">
+                    <p>text 1</p>
+                </div>
+            </div>
+
+            <div class="tab2">
+                <input type="radio" id="tab2" name="tab-group">
+                <label for="tab2">Tab 2</label>
+                <div class="tab-content">
+                    <p>text 2</p>
+                </div>
+            </div>
+
+            <div class="tab2">
+                <input type="radio" id="tab3" name="tab-group">
+                <label for="tab3">Tab 3</label>
+                <div class="tab-content">
+                    <p>text 3</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- #4 -->
+    <section>
+        <div class="buttons">
+            <div class="button" data-value="1">First</div>
+            <div class="button" data-value="2">Second</div>
+            <div class="button" data-value="3">Third</div>
+        </div>
+
+        <div class="tabs">
+            <div class="tab tab--1 active">First content</div>
+            <div class="tab tab--2">Second content</div>
+            <div class="tab tab--3">Third content</div>
         </div>
     </section>
 </body>
