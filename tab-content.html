@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sub's portfolio</title>
+    <meta name="description"
+        content="Portfolio web site of Kim Subin, Designer and Developer who live in South Korea." />
+    <meta name="author" content="subin" />
+    <link rel="icon" type="image/png" href="imgs/favicon.png" />
+    <script src="https://kit.fontawesome.com/0a137b08a2.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <script src="./tab-content.js" defer></script>
+    <script src="./jquery.min_1.12.4.js" defer></script>
+</head>
+
+<body>
+    <!-- Work -->
+    <section id="work" class="section">
+        <div class="section__container">
+            <h1>My work</h1>
+            <h3>Projects</h3>
+            <div class="work__categories">
+                <button class="category__btn selected" data-filter="*">
+                    All
+                </button>
+                <button class="category__btn" data-filter="Webstandard">
+                    Webstandard
+                </button>
+                <button class="category__btn" data-filter="Responsive">
+                    Responsive
+                </button>
+                <button class="category__btn" data-filter="etc">
+                    etc
+                </button>
+            </div>
+            <div class="work__projects">
+                <a href="http://kimmango.dothome.co.kr/web/index.html" class="project" target="_blank"
+                    data-type="Webstandard">
+                    <img src="./imgs/work1.jpg" alt="Webstandard" class="project__img" />
+                    <div class="project__description">
+                        <h3>Webstandard</h3>
+                        <span>HTML / CSS / Javasctipt / jQuery</span>
+                    </div>
+                </a>
+                <a href="http://kimmango.dothome.co.kr/responsive/index.html" class="project" target="_blank"
+                    data-type="Responsive">
+                    <img src="./imgs/work2.jpg" alt="Webstandard" class="project__img" />
+                    <div class="project__description">
+                        <h3>Responsive</h3>
+                        <span>HTML / CSS / Javasctipt / jQuery</span>
+                    </div>
+                </a>
+                <a href="http://kimmango.dothome.co.kr/megabox/index.html" class="project" target="_blank"
+                    data-type="etc">
+                    <img src="./imgs/work3.jpg" alt="Webstandard" class="project__img" />
+                    <div class="project__description">
+                        <h3>Megabox Website</h3>
+                        <span>HTML / CSS / Javasctipt / jQuery</span>
+                    </div>
+                </a>
+                <a href="http://kimmango.dothome.co.kr/fendi/index.html" class="project" target="_blank"
+                    data-type="etc">
+                    <img src="./imgs/work4.jpg" alt="Webstandard" class="project__img" />
+                    <div class="project__description">
+                        <h3>Fendi Website</h3>
+                        <span>HTML / CSS / Javasctipt / jQuery</span>
+                    </div>
+                </a>
+                <a href="http://kimmango.dothome.co.kr/HyundaiCard/index.html" class="project" target="_blank"
+                    data-type="etc">
+                    <img src="./imgs/work5.jpg" alt="Webstandard" class="project__img" />
+                    <div class="project__description">
+                        <h3>Hyundai Card Website</h3>
+                        <span>HTML / CSS</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
